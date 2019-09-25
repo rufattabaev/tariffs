@@ -8,7 +8,7 @@ public class Tariff {
     boolean unlimCallsOnTeleTwo;
     boolean abroadInternet;
     int costPerDay;
-    boolean internetUnlim;
+    boolean unlimInternet;
     int freeMessages;
     boolean noSubscriptionFee;
 

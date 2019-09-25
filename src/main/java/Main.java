@@ -43,7 +43,7 @@ public class Main {
         unlimited.id = 5;
         unlimited.name = "Безлимит";
         unlimited.costPerMonth = 400;
-        unlimited.internetUnlim = true;
+        unlimited.unlimInternet = true;
         unlimited.minutesLimit = 500;
         unlimited.unlimCallsOnTeleTwo = true;
         unlimited.freeMessages = 50;
