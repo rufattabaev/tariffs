@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        Tariffs myOnline = new Tariffs();
+        Tariff myOnline = new Tariff();
 
         myOnline.id = 1;
         myOnline.name = "Мой онлайн";
@@ -10,7 +10,7 @@ public class Main {
         myOnline.minutesLimit = 400;
         myOnline.unlimCallsOnTeleTwo = true;
 
-        Tariffs myOnlinePlus = new Tariffs();
+        Tariff myOnlinePlus = new Tariff();
 
         myOnlinePlus.id = 2;
         myOnlinePlus.name = "Мой онлайн +";
@@ -21,7 +21,7 @@ public class Main {
         myOnlinePlus.minutesLimit = 600;
         myOnlinePlus.unlimCallsOnTeleTwo = true;
 
-        Tariffs myTalk = new Tariffs();
+        Tariff myTalk = new Tariff();
 
         myTalk.id = 3;
         myTalk.name = "Мой разговор";
@@ -30,7 +30,7 @@ public class Main {
         myTalk.minutesLimit = 250;
         myTalk.unlimCallsOnTeleTwo = true;
 
-        Tariffs myTeleTwo = new Tariffs();
+        Tariff myTeleTwo = new Tariff();
 
         myTeleTwo.id = 4;
         myTeleTwo.name = "Мой Tele2";
@@ -38,7 +38,7 @@ public class Main {
         myTeleTwo.trafficLimitInMegabyte = 6144;
         myTalk.unlimCallsOnTeleTwo = true;
 
-        Tariffs unlimited = new Tariffs();
+        Tariff unlimited = new Tariff();
 
         unlimited.id = 5;
         unlimited.name = "Безлимит";
@@ -48,7 +48,7 @@ public class Main {
         unlimited.unlimCallsOnTeleTwo = true;
         unlimited.freeMessages = 50;
 
-        Tariffs premium = new Tariffs();
+        Tariff premium = new Tariff();
 
         premium.id = 6;
         premium.name = "Премиум";
@@ -58,19 +58,19 @@ public class Main {
         premium.unlimCallsOnTeleTwo = true;
         premium.freeMessages = 500;
 
-        Tariffs classical = new Tariffs();
+        Tariff classical = new Tariff();
 
         classical.id = 7;
         classical.name = "Классический";
         classical.noSubscriptionFee = true;
 
-        Tariffs internetForDevices = new Tariffs();
+        Tariff internetForDevices = new Tariff();
 
         internetForDevices.id = 8;
         internetForDevices.name = "Интернет для устрйств";
         internetForDevices.noSubscriptionFee = true;
 
-        Tariffs internetForThings = new Tariffs();
+        Tariff internetForThings = new Tariff();
 
         internetForThings.id = 9;
         internetForThings.name = "Интернет для вещей";
